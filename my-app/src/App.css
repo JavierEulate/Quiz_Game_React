@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap');
+
+html {
+  text-align: center;
+}
+
+body {
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #ecf6fe;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.btn-light, .btn-danger, .btn-warning, .btn-primary {
+  padding: 20px;
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 155px !important;
+  font-weight: bold;
+}
+
+.btn-dark {
+  padding: 20px;
+  margin: 15px;
+  width: 59px !important;
+}
+
+#pregunta {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#intro {
+  padding: 20px;
+  width: 25em;
+  display: inline-block;
+}
+
+#botones {
+  margin-top: 80px;
+}
+
+.inicio1 {
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.bienvenido, #Puntuacion {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.container1 {
+  padding-top: 20%;
+}
+
+.formulario {
+  padding-top: 25%;
+}
+
+.tiempo {
+  padding-top: 47%;
+  font-weight: bold;
+  font-size: 40px;
+  color: red;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  display: flex;
+  flex-direction: column;
+}
+#dis1, #dis2, #dis3 {
+  pointer-events: none !important;
+}
